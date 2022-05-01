@@ -41,7 +41,7 @@ if (localStorage.getItem('userToken')) {
   <Route path='Login' element={<Login getuser={getuserDate}/>} />
   <Route path='Home' element={<Home/>} />
   <Route path='Register' element={<Register/>} />
-  <Route path='*' element={<Notfound/>} />
+  <Route path='*' element={<Login/>} />
 
 
 </Routes>
